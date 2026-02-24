@@ -21,5 +21,5 @@ app.get('/home', (req, res) => {
   res.send('This is the home page')
 })
 app.listen(port, () => {
-  console.log('Server is running on http://localhost:3000')
+  console.log('Server was running on http://localhost:3000')
 })
